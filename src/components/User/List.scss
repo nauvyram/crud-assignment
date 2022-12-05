@@ -1,0 +1,36 @@
+@import "/src/theme/colors.scss";
+.UserList {
+  width: 100%;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+  th {
+    background-color: #fff;
+    color: $theme_primary_color;
+  }
+
+  td,
+  th {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+  }
+
+  &__wrap {
+    overflow-x: scroll;
+    max-width: 100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+  &__nav {
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  &__btn-grid {
+    display: flex;
+    column-gap: 10px;
+  }
+  
+}

@@ -1,0 +1,51 @@
+@import "./colors.scss";
+// Layout
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+// Text
+.text-center {
+  text-align: center;
+}
+.text-light {
+  color:$light-color;
+}
+
+.btn-primary {
+  color: $theme_primary_color;
+  background-color: transparent;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid $theme_primary_color;
+  padding: 10px;
+  border-radius: 10px;
+
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: $theme_primary_color;
+  }
+}
+
+.btn-secondary {
+  background-color: #efefef;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  color: #000;
+  cursor: pointer;
+  padding: 2px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: $theme_primary_color;
+    border-color: $theme_primary_color;
+  }
+}

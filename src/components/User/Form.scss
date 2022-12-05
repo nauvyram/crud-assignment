@@ -1,0 +1,16 @@
+.FormControl {
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+
+    &__wrap {
+        @media screen and (min-width:969px) {
+            width: 600px;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        padding: 8px 16px;
+    }
+}
