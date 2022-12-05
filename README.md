@@ -5,19 +5,24 @@ Simple User listing with CRUD.
 
 
 ## Functional Description
-####Users List 
-      -> Show list of users in Table contains id, email, name, address.
-      ->   Have one column with Edit and delete user options.
+
+**Users List**
+
+      - Show list of users in Table contains id, email, name, address.
+      - Have one column with Edit and delete user options.
       
-####Add/Edit user 
-    -> Clicking on add/edit should navigate to other page
-    -> Data in edit page should persist even after reloading.
-    -> Implement fields with validations ( using Formik ).
-    -> Add/Edit user using api from json-server. 
-    -> On click of add submit, navigate back to user list user should be added to the list.
-    -> On Edit update, navigate back to user list and user in the table should have updated data.
-####Delete User
-    -> On delete user should be deleted from the table
+**Add/Edit user**
+
+    - Clicking on add/edit should navigate to other page
+    - Data in edit page should persist even after reloading.
+    - Implement fields with validations ( using Formik ).
+    - Add/Edit user using api from json-server. 
+    - On click of add submit, navigate back to user list user should be added to the list.
+    - On Edit update, navigate back to user list and user in the table should have updated data.
+    
+**Delete User**
+
+    - On delete user should be deleted from the table
 
 
 ## Technical Description
